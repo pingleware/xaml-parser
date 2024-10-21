@@ -1,0 +1,38 @@
+{
+  "name": "@pingleware/xaml-parser",
+  "description": "XAML Parser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "mocha ."
+  },
+  "keywords": [],
+  "author": {
+    "name": "PRESSPAGE ENTERTAINMENT INC",
+    "email": "presspage.entertainment@gmail.com",
+    "url": "https://presspage-entertainment.biz"
+  },
+  "maintainers": [
+    {
+      "name": "PRESSPAGE ENTERTAINMENT INC dba PINGLEWARE",
+      "url": "https://pingleware.support"
+    }
+  ],
+  "bugs": {
+    "url": "https://pingleware.support"
+  },
+  "homepage": "https://github.com/pingleware/xaml-parser",
+  "funding": "https://github.com/sponsors/pingleware",
+  "private": false,
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "engineStrict": true,
+  "dependencies": {
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "mocha": "^10.7.3"
+  }
+}
